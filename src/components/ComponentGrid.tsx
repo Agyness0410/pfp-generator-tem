@@ -14,26 +14,6 @@ const rarityStyles: Record<string, string> = {
   original: 'bg-gradient-to-br from-gray-100 via-slate-50 to-gray-100 border-gray-300/50 shadow-gray-200/50'
 };
 
-const rarityColors: Record<string, string> = {
-  extraordinary: 'text-yellow-600',
-  super_rare: 'text-red-600',
-  rare: 'text-blue-600',
-  original: 'text-gray-600'
-};
-
-const rarityLabels: Record<string, string> = {
-  extraordinary: 'EXTRAORDINARY ✨',
-  super_rare: 'SUPER RARE 💎',
-  rare: 'RARE 🌟',
-  original: 'ORIGINAL 🤍'
-};
-
-const rarityEmojis: Record<string, string> = {
-  extraordinary: '✨',
-  super_rare: '💎',
-  rare: '🌟',
-  original: '🤍'
-};
 
 const ComponentGrid: React.FC<ComponentGridProps> = ({ components, selectedId, onSelect }) => {
   return (

@@ -1,8 +1,6 @@
 services:
-  - type: web
+  - type: static_site
     name: herstory-pfp-generator
-    runtime: node
-    plan: free
     buildCommand: npm ci && npm run build
     staticPublishPath: ./dist
     pullRequestPreviewsEnabled: true
