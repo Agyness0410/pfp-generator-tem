@@ -9,7 +9,7 @@ interface AuthContextType {
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
-const INVITATION_CODE = 'HERSTORY2024'; // This would be provided by you manually
+const INVITATION_CODE = 'vumnaz-pinwu1990-ziXqyx'; // This would be provided by you manually
 
 export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
